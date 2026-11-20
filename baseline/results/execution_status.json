@@ -1,0 +1,26 @@
+{
+  "snapshot_date": "2026-11-19",
+  "setup_job_id": "23767697",
+  "setup_state": "COMPLETED",
+  "setup_exit_code": "0:0",
+  "gpu_job_id": "23768711",
+  "gpu_state_at_snapshot": "COMPLETED",
+  "gpu_exit_code": "0:0",
+  "gpu_elapsed": "00:29:49",
+  "gpu_hardware": "NVIDIA H200, 143771 MiB, driver 610.43.02",
+  "model_predictions_available_at_snapshot": true,
+  "claims_per_configuration": 530,
+  "configurations": ["greedy", "thinking_low"],
+  "external_evidence_provided": false,
+  "cpu_preflight_claims": 530,
+  "integrity_tests_passed": 8,
+  "runtime_archive_sha256": "a01add35fc7ebe979ad00fa222e79fe025a2f2e00cf9d9432bd28d7513800109",
+  "prior_failed_gpu_attempts": [
+    {"job_id": "23767267", "state": "FAILED", "exit_code": "1:0", "predictions": 0, "cause": "System Python lacked development headers required by Triton."},
+    {"job_id": "23767715", "state": "FAILED", "exit_code": "1:0", "predictions": 0, "cause": "Conda C++ runtime could not load a FlashInfer extension compiled with the newer system compiler."}
+  ],
+  "resolution": "Complete Python 3.13 environment with headers, system C++ runtime preload, Triton prefill, and PyTorch sampling backend.",
+  "note": "Historical completion snapshot verified against Slurm accounting. Both runs contain all 530 predictions and were evaluated without label-repair retries. Scores are reference agreement, not independently adjudicated medical truth.",
+  "results": "baseline/results/23768711/",
+  "human_report": "baseline/REPORT.md"
+}

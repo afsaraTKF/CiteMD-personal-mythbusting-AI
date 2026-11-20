@@ -1,0 +1,3 @@
+# Exact resolved packages are saved as environment.freeze.txt for each HPC run.
+vllm==0.34.0
+transformers==5.22.2

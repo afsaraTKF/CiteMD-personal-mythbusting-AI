@@ -1,0 +1,57 @@
+{
+  "healthver": {
+    "corpus_passages": 734,
+    "test_claims": 230,
+    "test_pair_rows": 1823,
+    "unique_claim_passage_pairs": 1694,
+    "duplicate_pair_rows": 129,
+    "multi_label_pairs": [],
+    "claim_label_counts": {
+      "Conflicting": 70,
+      "Refuted": 39,
+      "Supported": 74,
+      "Insufficient": 47
+    },
+    "pair_label_counts": {
+      "Neutral": 727,
+      "Supports": 671,
+      "Refutes": 425
+    },
+    "unanimous_claims": 93,
+    "decisive_unconflicted_claims": 113,
+    "sample_rows": 300,
+    "sample_columns": [
+      "cid",
+      "claim",
+      "pid",
+      "evidence"
+    ],
+    "sample_is_labeled": false,
+    "source_sha256": {
+      "test_claims.jsonl": "7c067201f333e5ebdfdf0547343cfc700431f82eab7ce29c48d14b93f2d2bcee",
+      "test_pairs.csv": "25733fbf0aa0c331df90c01357203cd79c9e931adb6273b490c11a5ab9fa16e4",
+      "test_pairs_sample.csv": "d5b9e5925ee787c0ddfbe491ff306c0533efbfee5717c9122bfa493e28724de1",
+      "corpus.jsonl": "7405bca1f2523904c287d7e7f6cecf6ae9494e5fc100eec0ee5d7c2a0803ee9d"
+    },
+    "train_test_claim_overlap": [
+      "Children, like adults, who have COVID-19 but have no symptoms (asymptomatic) can still spread the virus to others."
+    ],
+    "original_test_pairs_verified": true
+  },
+  "scifact_download": {
+    "url": "https://scifact.s3-us-west-2.amazonaws.com/release/latest/data.tar.gz",
+    "archive_sha256": "11c621288d41ac144d29b13b0f8503b3820b7d6e8b1f6ff24dff335c196d76be"
+  },
+  "scifact": {
+    "split": "dev",
+    "claims": 300,
+    "citation_components": 247,
+    "source_sha256": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217",
+    "claim_label_counts": {
+      "Insufficient": 112,
+      "Supported": 124,
+      "Refuted": 64
+    }
+  },
+  "evaluation_sha256": "439cff67f569a801126f7fb2fbfc3fb013ab1d779017e6a42408575b4f947d34"
+}

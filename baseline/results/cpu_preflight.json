@@ -1,0 +1,22 @@
+{
+  "model_type": "qwen3_5",
+  "versions": {
+    "vllm": "0.34.0",
+    "torch": "2.14.0",
+    "transformers": "5.22.2"
+  },
+  "n": 530,
+  "modes": {
+    "off": {
+      "max_input_tokens": 327,
+      "prompt_bundle_sha256": "c2229bfd43c7e9ecb4c4d939e6641c6ad1e02a046e65f78f4e8750f67671820d"
+    },
+    "low": {
+      "max_input_tokens": 351,
+      "prompt_bundle_sha256": "b33fa2cbc69fa94aca54a31d9fbb436498a84ff89dce37558c4ac6a4ffddf58a"
+    }
+  },
+  "loads_weights": false,
+  "python_headers": "/share/apps/anaconda3/2025.06/include/python3.13",
+  "c_extension_compile_check": true
+}

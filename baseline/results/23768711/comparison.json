@@ -1,0 +1,75 @@
+{
+  "model": "Qwen/Qwen3.8-27B",
+  "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "interpretation": "Paired reference agreement, not clinical truth. Thinking and sampling settings both change; one sampled seed.",
+  "results": {
+    "healthver": {
+      "all_claims": {
+        "n": 230,
+        "greedy_agreement": 0.4,
+        "thinking_agreement": 0.391304347826087,
+        "thinking_minus_greedy": -0.008695652173913044,
+        "wrong_to_right": 9,
+        "right_to_wrong": 11,
+        "label_changes": 38,
+        "paired_delta_95pct_cluster_bootstrap": {
+          "lower": -0.04291845493562232,
+          "upper": 0.03056768558951965,
+          "clusters": 55,
+          "repeats": 1000,
+          "seed": 2026
+        }
+      },
+      "decisive_unconflicted": {
+        "n": 113,
+        "greedy_agreement": 0.7433628318584071,
+        "thinking_agreement": 0.7079646017699115,
+        "thinking_minus_greedy": -0.035398230088495575,
+        "wrong_to_right": 5,
+        "right_to_wrong": 9,
+        "label_changes": 15,
+        "paired_delta_95pct_cluster_bootstrap": {
+          "lower": -0.08196721311475409,
+          "upper": 0.02127659574468085,
+          "clusters": 41,
+          "repeats": 1000,
+          "seed": 2026
+        }
+      }
+    },
+    "scifact": {
+      "all_claims": {
+        "n": 300,
+        "greedy_agreement": 0.5033333333333333,
+        "thinking_agreement": 0.5166666666666667,
+        "thinking_minus_greedy": 0.013333333333333334,
+        "wrong_to_right": 31,
+        "right_to_wrong": 27,
+        "label_changes": 79,
+        "paired_delta_95pct_cluster_bootstrap": {
+          "lower": -0.03559870550161812,
+          "upper": 0.06020066889632107,
+          "clusters": 247,
+          "repeats": 1000,
+          "seed": 2026
+        }
+      },
+      "decisive_unconflicted": {
+        "n": 188,
+        "greedy_agreement": 0.7446808510638298,
+        "thinking_agreement": 0.7074468085106383,
+        "thinking_minus_greedy": -0.03723404255319149,
+        "wrong_to_right": 16,
+        "right_to_wrong": 23,
+        "label_changes": 46,
+        "paired_delta_95pct_cluster_bootstrap": {
+          "lower": -0.10382513661202186,
+          "upper": 0.029850746268656716,
+          "clusters": 164,
+          "repeats": 1000,
+          "seed": 2026
+        }
+      }
+    }
+  }
+}

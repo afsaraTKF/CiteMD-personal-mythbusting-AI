@@ -1,0 +1,25 @@
+{
+  "corpus_passages": 734,
+  "test_claims": 230,
+  "test_pairs": 1823,
+  "pair_label_counts": {
+    "Neutral": 727,
+    "Supports": 671,
+    "Refutes": 425
+  },
+  "claim_label_counts": {
+    "Supported": 74,
+    "Conflicting": 70,
+    "Insufficient": 47,
+    "Refuted": 39
+  },
+  "unanimous_claims": 93,
+  "gold_passages_per_claim_mean": 7.3652173913043475,
+  "gold_passages_per_claim_min_max": [
+    1,
+    18
+  ],
+  "test_passages_also_in_train": 451,
+  "test_claims_also_in_train": 1,
+  "sample_pairs": 300
+}

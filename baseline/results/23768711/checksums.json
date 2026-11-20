@@ -1,0 +1,22 @@
+{
+  "breakdown.md": "27346844b0789b08003aeaf978a6f9bc0f9d1671fb193144eebf2f14f5eb5b48",
+  "comparison.json": "53640b2e704611c4e90ba5f4d369e27f53ecbfd41ac1c04389781c6c1dd16b80",
+  "comparison.md": "b6fd633f85f3a3226056fbefca526adc1b4f9184ef0b2dacb6530b32c1c9bd32",
+  "environment.freeze.txt": "a5fa6ba0fd28da6594bf01a863c4f301eb4d5ac9a5c1f0d808c29833fe1d97ee",
+  "evaluation.jsonl": "439cff67f569a801126f7fb2fbfc3fb013ab1d779017e6a42408575b4f947d34",
+  "greedy/manifest.json": "26409f7de9f476de010fdac01e948d4b715ff2e60ff6a851dfe34a2a363dc5d2",
+  "greedy/metrics.json": "883f18d2b86ad0e1f05e4d5272db3e56af650888e9e85ffcfc27afb8bdf12b63",
+  "greedy/predictions.csv": "88eb0cceda990885edcf18c6cea054dd16469f5e3b80e89d732ab1a9153fb81e",
+  "greedy/predictions.jsonl": "bace2c8419e2ed16e35520fb93384361514367aee3e4154e5a44706e6a426124",
+  "greedy/prompts.jsonl": "9cedca92e6b2f3ae88c2a58eb7b725fcf25308c69e8b60192505717a20e77be3",
+  "greedy/review_queue.csv": "cd496a9d39f894b3f61427e43e2afe9eee2f3de1c1c48cbc6919f01d2aa969c9",
+  "greedy/summary.md": "d107000fec48e9d5f83736091e750d54cdfbfc867a30c573f9d4b4bc78922d29",
+  "slurm.log": "4dd062fb4c7627ac7956a649fa2cdf6e1a2cf454dc410ed200bbfd14e7e78e8f",
+  "thinking_low/manifest.json": "dd2e8c670846e9f415cd9e7927c776872762af6375f7a03a560db20cda288f5f",
+  "thinking_low/metrics.json": "1ba89756eba638e0f77a546cc8ba7ac1849540dcd920b12bed3c279c1e6d8a1d",
+  "thinking_low/predictions.csv": "604ca58cefcb622d77cf906e0217efbea485ce57b9d7d732303144dc836e1996",
+  "thinking_low/predictions.jsonl": "62287570b1d466cea11f23eaafbfe96f28272a4eab09702bb8dd70b9024d4dd4",
+  "thinking_low/prompts.jsonl": "4f4180aa3e86506acec06873b7a49e19aa0e614c46eb098107afd2b637f58e1d",
+  "thinking_low/review_queue.csv": "74189969c6260bbe95c82acda4f4e0752fad273ebf3a29d3f75c0336a9f95ec4",
+  "thinking_low/summary.md": "56a0d8264d622d11e2ac517e3201c6379d0d49263fe2de5273ff35f4d9e0a44a"
+}
